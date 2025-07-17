@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <meta name="description" content="Official website of Junayed Khan – poems, bio, and social links.">
+  <title>Junayed Khan - Personal Site</title>
+  <link rel="stylesheet" href="style.css" />
+  <script defer src="script.js"></script>
+</head>
+<body>
+  <header class="hero">
+    <h1 class="fade-in">Assalamu Alaikum</h1>
+    <p>Welcome to <strong>Junayed Khan</strong>'s World</p>
+    <button onclick="toggleTheme()">Toggle Theme</button>
+  </header>
+
+  <nav class="nav-bar">
+    <ul>
+      <li onclick="showSection('about')">About Me</li>
+      <li onclick="showSection('written')">Written</li>
+      <li onclick="showSection('contact')">Contact</li>
+    </ul>
+  </nav>
+
+  <main>
+    <section id="about" class="section hidden">
+      <img src="images/profile.jpg" alt="Junayed Khan" class="profile-img"/>
+      <p>This is about Junayed Khan, live in Dhaka, Kishoreganj, One of the Greatest man. Loved anyone easily. Stay with him and learned new things.</p>
+    </section>
+
+    <section id="written" class="section hidden">
+      <div class="card">
+        <h3>Poem 1</h3>
+        <p>তুমি আসার পর থেকেই, আমার দুনিয়া বদলে গেছে,<br>
+        আগে যেখানে শুধু নিঃশব্দ ছিল, সেখানে এখন ভালোবাসার সুর বেজে।</p>
+      </div>
+      <div class="card">
+        <h3>Poem 2</h3>
+        <p>প্রিয় সে, আমি জানি তুমি আমাকে ভালোবাসো না,<br>
+        তবুও আমি ভালোবেসেছি — নিঃশর্তে।</p>
+      </div>
+      <div class="card">
+        <h3>Poem 3</h3>
+        <p>আমার ভালোবাসা ছিলো নিঃশ্বাসের মতো,<br>
+        হৃদয়ের স্পন্দনের মতো — নীরব, কিন্তু জীবিত। 💙</p>
+      </div>
+    </section>
+
+    <section id="contact" class="section hidden contact-icons">
+      <a href="https://www.youtube.com/@Always_King_Junayed" target="_blank"><img src="icons/youtube.png" alt="YouTube"></a>
+      <a href="https://www.facebook.com/Junayed.Your.Dad" target="_blank"><img src="icons/facebook.png" alt="Facebook"></a>
+      <a href="https://github.com/A1ways-K1ng-Junayed" target="_blank"><img src="icons/github.png" alt="GitHub"></a>
+      <a href="mailto:khanjunayed257@gmail.com"><img src="icons/email.png" alt="Email"></a>
+    </section>
+  </main>
+</body>
+</html>
