@@ -1,58 +1,83 @@
 <!DOCTYPE html>
-<html lang="en" data-theme="light">
+<html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <meta name="description" content="Official website of Junayed Khan – poems, bio, and social links.">
-  <title>Junayed Khan - Personal Site</title>
-  <link rel="stylesheet" href="style.css" />
-  <script defer src="script.js"></script>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="This is the world of Junayed Khan - A poetic soul, out of the world, free from everything.">
+    <meta name="author" content="Junayed Khan" />
+    <title>Junayed Khan | Welcome to My World</title>
+    <link rel="stylesheet" href="style.css" />
 </head>
 <body>
-  <header class="hero">
-    <h1 class="fade-in">Assalamu Alaikum</h1>
-    <p>Welcome to <strong>Junayed Khan</strong>'s World</p>
-    <button onclick="toggleTheme()">Toggle Theme</button>
-  </header>
+    <div class="greeting">Assalamu Alaikum</div>
+    <h1 class="main-title">Welcome to My World</h1>
 
-  <nav class="nav-bar">
-    <ul>
-      <li onclick="showSection('about')">About Me</li>
-      <li onclick="showSection('written')">Written</li>
-      <li onclick="showSection('contact')">Contact</li>
-    </ul>
-  </nav>
+    <div class="about">
+        <img src="assets/images/junayed.jpg" alt="Junayed Khan">
+        <div class="bio">
+            <p><strong>Junayed Khan</strong><br>
+            Live in Dhaka, Kishoreganj.<br>
+            One of the Greatest men. Loved anyone easily.<br>
+            Stay with him and learn new things.<br><br>
+            <em>Out of the world. Free from everything. I have no kith and kin. I am just alone and I love it.</em></p>
+        </div>
+    </div>
 
-  <main>
-    <section id="about" class="section hidden">
-      <img src="images/profile.jpg" alt="Junayed Khan" class="profile-img"/>
-      <p>This is about Junayed Khan, live in Dhaka, Kishoreganj, One of the Greatest man. Loved anyone easily. Stay with him and learned new things.</p>
+    <div class="poems">
+        <h2>From the Broken Heart</h2>
+        <div class="poem">
+            <p>আমি ছিলাম অদৃশ্য, তুমি ছিলে আলো,<br>
+            তুমি ছুঁয়ে গেলে সব ব্যথা হলো ভালো।<br>
+            এখন সব শব্দ কাঁদে, নিঃশব্দে,<br>
+            তুমি নেই, তাই জীবন থমকে গেছে।</p>
+        </div>
+        <div class="poem">
+            <p>ভালোবাসা মানে কষ্টে হাসা,<br>
+            একা একা রাতে নামহীন ভাষা।<br>
+            হৃদয়ের দরজায় কড়া নাড়ে ব্যথা,<br>
+            তুমি ছাড়া এ জীবন বৃথা।</p>
+        </div>
+        <div class="poem">
+            <p>পৃথিবীটা কেন এমন নিষ্ঠুর?<br>
+            যেখানে সৎ মানুষ কাঁদে, মিথ্যে পায় গৌরব।<br>
+            আমার আবেগ ভেঙে যায় বারবার,<br>
+            তবুও ভালোবাসি নিঃস্বার্থভাবে তোমায়।</p>
+        </div>
+        <div class="poem">
+            <p>প্রতিটি নিশ্বাসে তুমি,<br>
+            অথচ তুমি শুনো না কিছুই।<br>
+            আমি চাইনি কিছু পেতে,<br>
+            শুধু চেয়েছিলাম তোমার পাশে বেঁচে যেতে।</p>
+        </div>
+        <div class="poem">
+            <p>নিরবতা আমার বন্ধু, <br>
+            ব্যথা আমার ছায়া,<br>
+            আমি সেই প্রেমিক, <br>
+            যার ভালোবাসা আজও অনাহুত।</p>
+        </div>
+        <div class="poem">
+            <p>আমি বিশ্বাস করেছি,<br>
+            ভালোবাসা মরে না কখনও।<br>
+            তুমি ছিঁড়ে ফেলেছো পাতাগুলো,<br>
+            তবুও আমার হৃদয় জ্বলে তোমার নাম নিয়ে।</p>
+        </div>
+        <div class="poem">
+            <p>তুমি জানো না, <br>
+            আমার হৃদয় কতটা নীরব।<br>
+            প্রতিটি মুহূর্তে আমি তোমাকেই ভাবি,<br>
+            আর ভাবি — তুমি কি একবারও আমাকে ভেবেছিলে?</p>
+        </div>
+    </div>
+
+    <section class="contact">
+        <h2>Contact</h2>
+        <div class="social-icons">
+            <a href="https://www.youtube.com/@Always_King_Junayed" target="_blank"><img src="assets/icons/youtube.png" alt="YouTube"></a>
+            <a href="https://www.facebook.com/Junayed.Your.Dad" target="_blank"><img src="assets/icons/facebook.png" alt="Facebook"></a>
+            <a href="https://github.com/A1ways-K1ng-Junayed" target="_blank"><img src="assets/icons/github.png" alt="GitHub"></a>
+            <a href="mailto:khanjunayed257@gmail.com"><img src="assets/icons/email.png" alt="Email"></a>
+            <a href="https://www.instagram.com/theju.nayed?igsh=YzljYTk1ODg3Zg==" target="_blank"><img src="assets/icons/instagram.png" alt="Instagram"></a>
+        </div>
     </section>
-
-    <section id="written" class="section hidden">
-      <div class="card">
-        <h3>Poem 1</h3>
-        <p>তুমি আসার পর থেকেই, আমার দুনিয়া বদলে গেছে,<br>
-        আগে যেখানে শুধু নিঃশব্দ ছিল, সেখানে এখন ভালোবাসার সুর বেজে।</p>
-      </div>
-      <div class="card">
-        <h3>Poem 2</h3>
-        <p>প্রিয় সে, আমি জানি তুমি আমাকে ভালোবাসো না,<br>
-        তবুও আমি ভালোবেসেছি — নিঃশর্তে।</p>
-      </div>
-      <div class="card">
-        <h3>Poem 3</h3>
-        <p>আমার ভালোবাসা ছিলো নিঃশ্বাসের মতো,<br>
-        হৃদয়ের স্পন্দনের মতো — নীরব, কিন্তু জীবিত। 💙</p>
-      </div>
-    </section>
-
-    <section id="contact" class="section hidden contact-icons">
-      <a href="https://www.youtube.com/@Always_King_Junayed" target="_blank"><img src="icons/youtube.png" alt="YouTube"></a>
-      <a href="https://www.facebook.com/Junayed.Your.Dad" target="_blank"><img src="icons/facebook.png" alt="Facebook"></a>
-      <a href="https://github.com/A1ways-K1ng-Junayed" target="_blank"><img src="icons/github.png" alt="GitHub"></a>
-      <a href="mailto:khanjunayed257@gmail.com"><img src="icons/email.png" alt="Email"></a>
-    </section>
-  </main>
 </body>
 </html>
